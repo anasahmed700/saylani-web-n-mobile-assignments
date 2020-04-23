@@ -1,0 +1,71 @@
+body {
+    margin: 0px;
+}
+
+.top-header {
+    background-color: royalblue;
+    height: 40px;
+    padding: 5px 70px;
+    text-align: center;
+}
+
+.top-header>div {
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+.social-contacts li>img {
+    width: 20px;
+    height: 20px;
+}
+
+.social-contacts ul,
+.social-contacts li {
+    margin: 0px 2px;
+    display: inline-block;
+}
+
+.top-buttons {
+    float: right;
+}
+
+.top-description {
+    color: white;
+    margin: 10px auto;
+}
+
+.social-contacts {
+    float: left;
+}
+
+.bottom-header {
+    background-color: lightgray;
+    height: 80px;
+}
+.logo{
+    margin: 10px 80px;
+}
+.logo img {
+    width: 191px;
+    height: 52px;
+}
+
+.bottom-header div,
+.bottom-header ul,
+.bottom-header li {
+    display: inline-block;
+    position: relative;
+}
+
+.navigator {
+float: right;
+margin: 15px 100px;
+}
+
+.bottom-header a {
+    text-decoration: none;
+    color: #f8f8f8;
+    background-color: royalblue;
+    padding: 8px 16px;
+    border-radius: 20px;
+}
