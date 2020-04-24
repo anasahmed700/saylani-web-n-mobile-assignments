@@ -1,4 +1,5 @@
 body {
+    background-color: #f8f8f8;
     margin: 0px;
 }
 
@@ -68,4 +69,51 @@ margin: 15px 100px;
     background-color: royalblue;
     padding: 8px 16px;
     border-radius: 20px;
+}
+#ticker{
+    text-align: center;
+    background-color: royalblue;
+    color: white;
+    margin: 0px 10%;
+}
+#ticker>p{
+    margin: 10px auto;
+}
+#ticker span{
+    color: lightgreen;
+}
+.intro .heading{
+    text-align: center;
+}
+.intro h1{
+    margin: 30px auto 10px auto;
+}
+.heading-start{
+    color: blue;
+}
+.heading-end{
+    color: green;
+}
+.content{
+    margin: auto 15%;
+}
+.operations{
+    background-color: blue;
+    text-align: center;
+    height: 150%;
+    margin: 50px auto;
+}
+.op{
+    display: inline-block;
+    text-align: center;
+    padding: 50px auto;
+    color: white;
+}
+.op img{
+    width: 15%; height: 15%;
+    display: block;
+    margin: 20% auto auto auto;
+}
+.op span{
+    color: lightgreen;
 }
