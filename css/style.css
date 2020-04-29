@@ -3,14 +3,14 @@ body {
     margin: 0px;
 }
 
-.top-header {
+#top-header {
     background-color: royalblue;
     height: 40px;
     padding: 5px 70px;
     text-align: center;
 }
 
-.top-header>div {
+#top-header>div {
     display: inline-block;
     margin: 10px 20px;
 }
@@ -28,6 +28,7 @@ body {
 
 .top-buttons {
     float: right;
+    border: none;
 }
 
 .top-description {
@@ -39,8 +40,8 @@ body {
     float: left;
 }
 
-.bottom-header {
-    background-color: lightgray;
+#bottom-header {
+    background-color: #f8f8f8;
     height: 80px;
 }
 .logo{
@@ -51,19 +52,19 @@ body {
     height: 52px;
 }
 
-.bottom-header div,
-.bottom-header ul,
-.bottom-header li {
+#bottom-header div,
+#bottom-header ul,
+#bottom-header li {
     display: inline-block;
     position: relative;
 }
 
 .navigator {
 float: right;
-margin: 15px 100px;
+margin: 15px 80px;
 }
 
-.bottom-header a {
+#bottom-header a {
     text-decoration: none;
     color: #f8f8f8;
     background-color: royalblue;
@@ -82,10 +83,10 @@ margin: 15px 100px;
 #ticker span{
     color: lightgreen;
 }
-.intro .heading{
+.heading{
     text-align: center;
 }
-.intro h1{
+#intro h1{
     margin: 30px auto 10px auto;
 }
 .heading-start{
@@ -97,7 +98,7 @@ margin: 15px 100px;
 .content{
     margin: auto 15%;
 }
-.operations{
+#operations{
     background-color: blue;
     text-align: center;
     height: 150%;
@@ -116,4 +117,103 @@ margin: 15px 100px;
 }
 .op span{
     color: lightgreen;
+}
+#departments{
+    text-align: center;
+}
+.dept{
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    margin: 20px;
+    padding: 30px;
+    box-shadow: 2px 2px 25px lightgray;
+}
+#project-n-event{
+    display: flexbox;
+    background-color: white;
+    /* height: 100vw; */
+}
+#project-n-event>div{
+    margin: auto 5%;
+    padding: auto 5%;
+}
+#projects{
+    display: inline-block;
+    width: 70%;
+    /* float: left; */
+}
+.proj{
+    display: inline-flex;
+    width: 40%;
+    padding: 0.5vw;
+    margin: 1%;
+    background-color: #f8f8f8;
+}
+.proj>a{
+    display: inline-block;
+    margin: 10px 25px 0px 5px;
+}
+#events {
+    width: 25%;
+    float: right;
+}
+#events p {
+    padding: 7px;
+}
+#project-n-event .heading{
+    margin: 1%;
+    padding: 1%;
+}
+#gallery{
+    text-align: center;
+}
+.gallery{
+    width: 19%;
+}
+footer{
+    background-color: #25272E;
+    color: white;
+    text-align: center;
+}
+#details{
+    display: inline-block;
+    text-align: left;
+    margin: 20px auto;
+    width: 25%;
+}
+#links{
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+    text-align: left;
+}
+#connect{
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+    text-align: left;
+}
+#connect img{
+    width: 20px;
+    height: 20px;
+}
+#connect li{
+    display: inline-block;
+}
+#connect ul{
+    padding: initial;
+}
+#details, #links, #connect{
+    padding: 30px 20px;
+}
+#bottom-line{
+    background-color: royalblue;
+    padding: 2px 100px;
+    text-align: left;
+}
+#bottom-line p{
+    font-size: small;
+
 }
