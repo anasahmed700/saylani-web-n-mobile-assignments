@@ -1,3 +1,9 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1, h2, h3, h4{
+    color: royalblue;
+}
 body {
     background-color: #f8f8f8;
     margin: 0px;
@@ -15,7 +21,7 @@ body {
     margin: 10px 20px;
 }
 
-.social-contacts li>img {
+.social-contacts li>a>img {
     width: 20px;
     height: 20px;
 }
@@ -62,14 +68,18 @@ body {
 .navigator {
 float: right;
 margin: 15px 80px;
-}
+} 
 
 #bottom-header a {
     text-decoration: none;
-    color: #f8f8f8;
-    background-color: royalblue;
+    color: #000;
+    background-color: #f8f8f8;
     padding: 8px 16px;
     border-radius: 20px;
+}
+#bottom-header a:hover, #bottom-header a:active {
+    color: white;
+    background-color: royalblue;
 }
 #ticker{
     text-align: center;
@@ -99,10 +109,13 @@ margin: 15px 80px;
     margin: auto 15%;
 }
 #operations{
-    background-color: blue;
+    background-color: royalblue;
     text-align: center;
     height: 150%;
     margin: 50px auto;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
 }
 .op{
     display: inline-block;
@@ -117,6 +130,12 @@ margin: 15px 80px;
 }
 .op span{
     color: lightgreen;
+}
+.op h2{
+    font-size: xxx-large;
+    font-weight: bolder;
+    margin: auto;
+    color: #f8f8f8;
 }
 #departments{
     text-align: center;
@@ -137,7 +156,7 @@ margin: 15px 80px;
 }
 #project-n-event>div{
     margin: auto 5%;
-    padding: auto 5%;
+    padding: 20px 5%;
 }
 #projects{
     display: inline-block;
@@ -157,7 +176,7 @@ margin: 15px 80px;
 }
 #events {
     width: 25%;
-    float: right;
+    display: inline-block;
 }
 #events p {
     padding: 7px;
@@ -174,8 +193,11 @@ margin: 15px 80px;
 }
 footer{
     background-color: #25272E;
-    color: white;
     text-align: center;
+    color: lightgray;
+}
+footer h4{
+    color: lightgray;
 }
 #details{
     display: inline-block;
@@ -183,6 +205,10 @@ footer{
     margin: 20px auto;
     width: 25%;
 }
+#details ul {
+    list-style-image: url("../images/phone-icon.png");
+    
+  }
 #links{
     display: inline-block;
     width: 25%;
@@ -208,6 +234,7 @@ footer{
 #details, #links, #connect{
     padding: 30px 20px;
 }
+
 #bottom-line{
     background-color: royalblue;
     padding: 2px 100px;
@@ -217,3 +244,53 @@ footer{
     font-size: small;
 
 }
+#details, #links, #connect{
+    display: flexbox;
+}
+#scroller img{
+    height: 40px;
+    width: 40px;
+    position: fixed;    
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    #bottom-header a {
+      display: block;
+      clear: both;
+      margin: 10px;
+    }
+    .navigator {
+        margin: auto;
+      }
+    #events{
+        display: block;
+        margin: auto;
+        width: auto;
+    }
+    #projects{
+        width: auto;
+    }
+    #top-header{
+        height: auto;   
+    }
+    footer{
+        height: auto;
+        text-align: left;
+    }
+    #detalis, #links, #connect{
+        display: block;
+        padding: 10px;
+        width: auto;
+    }
+    #details *{
+        width: 350px;
+        margin: auto;
+        padding: 5px;
+    }
+    #operations{
+        display: block;
+    }
+  }
