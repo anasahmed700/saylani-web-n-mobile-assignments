@@ -51,7 +51,7 @@ body {
     height: 80px;
 }
 .logo{
-    margin: 10px 80px;
+    margin: 10px 0px 10px 70px;
 }
 .logo img {
     width: 191px;
@@ -67,7 +67,7 @@ body {
 
 .navigator {
 float: right;
-margin: 15px 80px;
+margin: 15px 80px 15px 0px;
 } 
 
 #bottom-header a {
