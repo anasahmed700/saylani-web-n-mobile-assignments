@@ -1,9 +1,14 @@
-*{
+* {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-h1, h2, h3, h4{
+
+h1,
+h2,
+h3,
+h4, h5 {
     color: royalblue;
 }
+
 body {
     background-color: #f8f8f8;
     margin: 0px;
@@ -11,64 +16,32 @@ body {
 
 #top-header {
     background-color: royalblue;
-    height: 40px;
-    padding: 5px 70px;
-    text-align: center;
 }
-
-#top-header>div {
-    display: inline-block;
-    margin: 10px 20px;
+#top-header a{
+    font-size: 11px;
+    color: gray;
 }
 
 .social-contacts li>a>img {
     width: 20px;
-    height: 20px;
 }
 
-.social-contacts ul,
-.social-contacts li {
-    margin: 0px 2px;
-    display: inline-block;
-}
 
-.top-buttons {
-    float: right;
-    border: none;
-}
-
-.top-description {
-    color: white;
-    margin: 10px auto;
-}
-
-.social-contacts {
-    float: left;
-}
-
-#bottom-header {
-    background-color: #f8f8f8;
-    height: 80px;
-}
-.logo{
-    margin: 10px 0px 10px 70px;
-}
 .logo img {
-    width: 191px;
-    height: 52px;
+    height: 50px;
 }
 
 #bottom-header div,
 #bottom-header ul,
 #bottom-header li {
     display: inline-block;
-    position: relative;
+    margin: 5px auto;
+
 }
 
 .navigator {
-float: right;
-margin: 15px 80px 15px 0px;
-} 
+    margin: 15px 0px 15px 80px;
+}
 
 #bottom-header a {
     text-decoration: none;
@@ -77,38 +50,51 @@ margin: 15px 80px 15px 0px;
     padding: 8px 16px;
     border-radius: 20px;
 }
-#bottom-header a:hover, #bottom-header a:active {
+
+#bottom-header a:hover,
+#bottom-header a:active {
     color: white;
     background-color: royalblue;
 }
-#ticker{
+.d-block{
+    height: 60vmin;
+}
+#ticker {
     text-align: center;
     background-color: royalblue;
     color: white;
-    margin: 0px 10%;
+    margin: 0px 8%;
 }
-#ticker>p{
+
+#ticker>p {
     margin: 10px auto;
 }
-#ticker span{
+
+#ticker span {
     color: lightgreen;
 }
-.heading{
+
+.heading {
     text-align: center;
 }
-#intro h1{
+
+#intro h1 {
     margin: 30px auto 10px auto;
 }
-.heading-start{
+
+.heading-start {
     color: blue;
 }
-.heading-end{
+
+.heading-end {
     color: green;
 }
-.content{
+
+.content {
     margin: auto 15%;
 }
-#operations{
+
+#operations {
     background-color: royalblue;
     text-align: center;
     height: 150%;
@@ -117,30 +103,37 @@ margin: 15px 80px 15px 0px;
     display: flex;
     justify-content: space-around;
 }
-.op{
+
+.op {
     display: inline-block;
     text-align: center;
     padding: 50px auto;
     color: white;
 }
-.op img{
-    width: 15%; height: 15%;
+
+.op img {
+    width: 15%;
+    height: 15%;
     display: block;
     margin: 20% auto auto auto;
 }
-.op span{
+
+.op span {
     color: lightgreen;
 }
-.op h2{
+
+.op h2 {
     font-size: xxx-large;
     font-weight: bolder;
     margin: auto;
     color: #f8f8f8;
 }
-#departments{
+
+#departments {
     text-align: center;
 }
-.dept{
+
+.dept {
     background-color: white;
     display: inline-block;
     text-align: center;
@@ -149,108 +142,134 @@ margin: 15px 80px 15px 0px;
     padding: 30px;
     box-shadow: 2px 2px 25px lightgray;
 }
-#project-n-event{
+
+#project-n-event {
     display: flexbox;
     background-color: white;
     /* height: 100vw; */
 }
-#project-n-event>div{
+
+#project-n-event>div {
     margin: auto 5%;
     padding: 20px 5%;
 }
-#projects{
+
+#projects {
     display: inline-block;
     width: 70%;
     /* float: left; */
 }
-.proj{
+
+.proj {
     display: inline-flex;
     width: 40%;
     padding: 0.5vw;
     margin: 1%;
     background-color: #f8f8f8;
 }
-.proj>a{
+
+.proj>a {
     display: inline-block;
     margin: 10px 25px 0px 5px;
 }
+
 #events {
     width: 25%;
     display: inline-block;
+    padding-top: 20px;
 }
+
 #events p {
     padding: 7px;
 }
-#project-n-event .heading{
+
+#project-n-event .heading {
     margin: 1%;
     padding: 1%;
 }
-#gallery{
+
+#gallery {
     text-align: center;
 }
-.gallery{
+
+.gallery {
     width: 19%;
 }
-footer{
+
+footer {
     background-color: #25272E;
     text-align: center;
     color: lightgray;
 }
-footer h4{
+
+footer h4 {
     color: lightgray;
 }
-#details{
+
+#details {
     display: inline-block;
     text-align: left;
     margin: 20px auto;
     width: 25%;
 }
+
 #details ul {
     list-style-image: url("../images/phone-icon.png");
-    
-  }
-#links{
+
+}
+
+#links {
     display: inline-block;
     width: 25%;
     vertical-align: top;
     text-align: left;
 }
-#connect{
+
+#connect {
     display: inline-block;
     width: 25%;
     vertical-align: top;
     text-align: left;
 }
-#connect img{
+
+#connect img {
     width: 20px;
     height: 20px;
 }
-#connect li{
+
+#connect li {
     display: inline-block;
 }
-#connect ul{
+
+#connect ul {
     padding: initial;
 }
-#details, #links, #connect{
+
+#details,
+#links,
+#connect {
     padding: 30px 20px;
 }
 
-#bottom-line{
+#bottom-line {
     background-color: royalblue;
-    padding: 2px 100px;
-    text-align: left;
 }
-#bottom-line p{
+
+#bottom-line p {
     font-size: small;
 
 }
-#details, #links, #connect{
+
+#details,
+#links,
+#connect {
     display: flexbox;
 }
-#scroller img{
+
+#scroller img {
     height: 40px;
     width: 40px;
-    position: fixed;    
+    position: fixed;
     bottom: 20px;
     right: 20px;
     cursor: pointer;
@@ -258,39 +277,56 @@ footer h4{
 
 @media only screen and (max-width: 600px) {
     #bottom-header a {
-      display: block;
-      clear: both;
-      margin: 10px;
+        display: block;
+        clear: both;
+        margin: 10px;
+    }
+
+    .logo{
+        display: block;
+        text-align: center;
+        width: 100%;
     }
     .navigator {
+        display: grid;
         margin: auto;
-      }
-    #events{
+        width: 100%;
+    }
+
+    #events {
         display: block;
         margin: auto;
         width: auto;
     }
-    #projects{
+
+    #projects {
         width: auto;
     }
-    #top-header{
-        height: auto;   
+
+    #top-header {
+        height: auto;
     }
-    footer{
+
+    footer {
         height: auto;
         text-align: left;
     }
-    #detalis, #links, #connect{
+
+    #detalis,
+    #links,
+    #connect {
         display: block;
         padding: 10px;
         width: auto;
     }
-    #details *{
+
+    #details * {
         width: 350px;
         margin: auto;
         padding: 5px;
     }
-    #operations{
+
+    #operations {
         display: block;
     }
-  }
+}
